@@ -19,18 +19,37 @@
 // (http://wpdocs.sourceforge.jp/Codex:%E8%AB%87%E8%A9%B1%E5%AE%A4 参照)
 // を使用し必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
+//// ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
+///** WordPress のデータベース名 */
+//define('DB_NAME', 'LAA0738720-asobi');
+//
+///** MySQL のユーザー名 */
+//define('DB_USER', 'LAA0738720');
+//
+///** MySQL のパスワード */
+//define('DB_PASSWORD', 'Machifurefure');
+//
+///** MySQL のホスト名 (ほとんどの場合変更する必要はありません。) */
+//define('DB_HOST', 'mysql124.phy.lolipop.lan');
+//
+///** データベーステーブルのキャラクターセット (ほとんどの場合変更する必要はありません。) */
+//define('DB_CHARSET', 'utf8');
+//
+///** データベースの照合順序 (ほとんどの場合変更する必要はありません。) */
+//define('DB_COLLATE', '');
+
 // ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
 /** WordPress のデータベース名 */
 define('DB_NAME', 'LAA0738720-asobi');
 
 /** MySQL のユーザー名 */
-define('DB_USER', 'LAA0738720');
+define('DB_USER', 'root');
 
 /** MySQL のパスワード */
-define('DB_PASSWORD', 'Machifurefure');
+define('DB_PASSWORD', 'root');
 
 /** MySQL のホスト名 (ほとんどの場合変更する必要はありません。) */
-define('DB_HOST', 'mysql124.phy.lolipop.lan');
+define('DB_HOST', 'localhost');
 
 /** データベーステーブルのキャラクターセット (ほとんどの場合変更する必要はありません。) */
 define('DB_CHARSET', 'utf8');
