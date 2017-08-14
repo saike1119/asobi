@@ -19,37 +19,18 @@
 // (http://wpdocs.sourceforge.jp/Codex:%E8%AB%87%E8%A9%B1%E5%AE%A4 参照)
 // を使用し必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
-//// ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
-///** WordPress のデータベース名 */
-//define('DB_NAME', 'LAA0738720-asobi');
-//
-///** MySQL のユーザー名 */
-//define('DB_USER', 'LAA0738720');
-//
-///** MySQL のパスワード */
-//define('DB_PASSWORD', 'Machifurefure');
-//
-///** MySQL のホスト名 (ほとんどの場合変更する必要はありません。) */
-//define('DB_HOST', 'mysql124.phy.lolipop.lan');
-//
-///** データベーステーブルのキャラクターセット (ほとんどの場合変更する必要はありません。) */
-//define('DB_CHARSET', 'utf8');
-//
-///** データベースの照合順序 (ほとんどの場合変更する必要はありません。) */
-//define('DB_COLLATE', '');
-
 // ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
 /** WordPress のデータベース名 */
 define('DB_NAME', 'LAA0738720-asobi');
 
 /** MySQL のユーザー名 */
-define('DB_USER', 'root');
+define('DB_USER', 'LAA0738720');
 
 /** MySQL のパスワード */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Asobi1234');
 
 /** MySQL のホスト名 (ほとんどの場合変更する必要はありません。) */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql125.phy.lolipop.lan');
 
 /** データベーステーブルのキャラクターセット (ほとんどの場合変更する必要はありません。) */
 define('DB_CHARSET', 'utf8');
@@ -68,10 +49,10 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'neEm~alGIDvO4rXrjxKe*:VEog3mwDgtCT:AunY8=Iytu-Z#qdC8olG^9/VSaGd5');
-define('SECURE_AUTH_KEY', '*m$2$Vq_6ujXz5_{;Mn6axmkPVWNlaW{6YA4X!A=u`+j&!_Okn6Y+^;g0{sP>mJj');
-define('LOGGED_IN_KEY', 'RL)T4!"*}=J0C[]uxe#]wH-${a4+uK?v6JL-;J9RT+iy7uOIK+kjR&rq!d2zpj?c');
-define('NONCE_KEY', 'j5^LXSu1Ka[m=dGL/UHQ:vWZOrA>Cw6cDdi|AY"J2+eK;<qW}E&Xi4S&A0,?&`Kg');
+define('AUTH_KEY', 's)g]K=%s/x-+uAs1!=Ee@"bm"LY/QG`u4/}@D8%gTej=:+JM=f>lz/~F+|a}B-g[');
+define('SECURE_AUTH_KEY', '^g)#:93#&8UzWqfKKKV,p4|Q07p>j{:6%Iw3UESP0byHY,vll4_P8~aS/z7nK!A]');
+define('LOGGED_IN_KEY', ',*$=6$1-.:@!KM!WD[+#qem%#0KDDk({b9Y4<"cJdMiOrzrvMrI:xjr7?#V)_6_Q');
+define('NONCE_KEY', 'j%~uEV+hH-Dg#BA)s&=P#8PlgLcd;^GUwG:zalfH#lPj3owKEm/uZ_-MN_iNJl{k');
 /**#@-*/
 
 /**
@@ -80,7 +61,7 @@ define('NONCE_KEY', 'j5^LXSu1Ka[m=dGL/UHQ:vWZOrA>Cw6cDdi|AY"J2+eK;<qW}E&Xi4S&A0,
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'wp5_';
+$table_prefix  = 'wp7_';
 
 /**
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
